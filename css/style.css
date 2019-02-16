@@ -8,6 +8,12 @@ body {
   color: #868e96;
 }
 
+/*
+background_t {
+background-image: linear-gradient(171.18de:g, #202E74 2.11%, rgba(102, 110, 150, 0.55) 43.19%, #B0B4C8 53.93%);
+}
+*/
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -1185,7 +1191,10 @@ ul {
   height: 17px;
   margin: 0px;
   border: none;
+/*
   background-color: #e7cbde;
+*/
+background-color: #16ffff;
 }
 
 
