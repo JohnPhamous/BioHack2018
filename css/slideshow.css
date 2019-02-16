@@ -11,7 +11,7 @@ body {
   justify-content: space-between;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 1000px) {
   .slide-box img {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
