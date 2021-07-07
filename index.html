@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
-  <title>BioHack 2018 | UC Riverside</title>
+  <title>BioHack 2019 | UC Riverside</title>
+  <link rel="icon" type="img/png" href="img/viruslogo.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300, 400" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
-
+  <link rel="stylesheet" href="css/slideshow.css">
   <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
   <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
@@ -17,12 +19,12 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
 
+<body>
   <header role="banner">
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Bio<span>Hack</span>  </a>
+        <a class="navbar-brand" href="index.html">BioHack</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" data-target="#navbarToggle" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,7 +35,30 @@
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+<!--
+	    <li class="nav-item">
+              <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfcQZaW8p5SHk7SexgVRgKTLKIvVNFxosFlSl2BAZGkjHqbqQ/viewform">Application</a>
+            </li>
+-->
+            <li class="nav-item">
+              <a class="nav-link" href="#announcements">Announcements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#agenda">Schedule</a>
+            </li>
+<!--             <li class="nav-item">
+              <a class="nav-link" href="#guest">Guests</a>
+            </li>    -->
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#sponsors">Sponsors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -43,179 +68,595 @@
       </div>
     </nav>
   </header>
+<!--
+  <div class="social-icon">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <ul class='social'>
+      <li>
+        <a class="fa fa-facebook" href="https://www.facebook.com/UCRBiohack/" target="_blank">
+          <span>Facebook</span>
+        </a>
+      </li>
+      <li>
+        <a class="fa fa-instagram" href="https://www.instagram.com/biohack_ucr/?hl=en" target="_blank">
+          <span>Instagram</span>
+        </a>
+      </li>
+      <li>
+        <a class="fa fa-envelope" href="mailto:biohack.ucr@gmail.com">
+          <span>E-Mail</span>
+        </a>
+      </li>
+    </ul>
+  </div>   -->
 
   <div id="home" class="homepage-hero-module">
     <div class="hero-text hero">
       <div class="row">
         <div class="col-md-12">
-          <h1>BioHack</h1>
-          <p class="date">May 19th, 2018</p>
-          <p>University of California, Riverside</p>
-          <p><em>Merging man with machine</em></p>
-          <a href="https://bio12.typeform.com/to/y8tLCs" class="btn btn-primary btn-lg">Apply</a>
+          <div class ="change-f">
+            <p class="date">May 18th, 2019</p>
+            <p>University of California, Riverside
+            </p>
+          </div>
+		  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcQZaW8p5SHk7SexgVRgKTLKIvVNFxosFlSl2BAZGkjHqbqQ/viewform"><img src="img/apply.png" width="350" height="120" title="apply" alt="Application"></a>
+<!--
+          <a href="https://bio12.typeform.com/to/y8tLCs" class="btn btn-primary btn-lg">Apply</a> 
+-->
         </div>
       </div>
     </div>
-    <div class="video-container">
-      <div class="filter"></div>
-      <video autoplay loop class="fillWidth">
-          <source src="video/hero.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-          <source src="video/hero.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-      </video>
-      <!-- <div class="poster hidden">
-        <img src="video/hero.jpg" alt="">
-      </div> -->
+
+    <div class="container">
+    <div class="align-items-center">
+    <div class="logo-container">
+      <img src="img/BioHackonlylogo[3900].png">
+    </div>
+    </div>
     </div>
   </div>
+
+  <div class="space-sp">  </div>
 
   <section class="container home-feature mb-5">
     <div class="row">
       <div class="col-md-4 p-0 one-col element-animate">
         <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
           <span class="icon flaticon-hospital-bed"></span>
-          <h2>Innovators</h2>
+          <h2>What</h2>
           <p>
-            We are inviting over 150 innovators of all skill levels to come make the next technological advancement in the biomedical field.
+            Founded in 2018 by student leaders from the <a class="under-line" href="http://ucrswe.weebly.com/" target="_blank">Society of Women Engineers</a> and the <a class="under-line" href="https://bmesucr.weebly.com/" target="_blank">Biomedical Engineering Society</a>,
+             BioHack is a 12-hour bioengineering related, health & medicine themed hackathon at the University of California, Riverside.
           </p>
         </div>
       </div>
       <div class="col-md-4 p-0 two-col element-animate">
         <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
           <span class="icon flaticon-first-aid-kit"></span>
-          <h2>A Weekend</h2>
+          <h2>Is</h2>
           <p>
-            Innovators will be supported for 12 hours in their suit of their projects
+            Our mission is to foster connections among students and sponsors throughout the computer science and bioengineering industries. Through BioHack,
+            students will form teams to work on projects, attend technical workshops, speak with mentors, learn about new technologies, and network with industries.
           </p>
         </div>
       </div>
       <div class="col-md-4 p-0 three-col element-animate">
         <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
           <span class="icon flaticon-hospital"></span>
-          <h2>Challenges</h2>
+          <h2>BioHack?</h2>
           <p>
-            Working with industry partners, we will provide our innovators with real world challenges that the solutions will have an immediate impact.
+            We encourage curious non-computer science or engineering students to develop valuable technical and teamwork skills in a safe and encouraging environment.
+            BioHack focuses on an event where students can create medically innovative projects and technologies with the freedom of their creativity.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section stretch-section">
+<div class="container">
+  <div class="row">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+		<li data-target="#carousel" data-slide-to="2"></li>
+		<li data-target="#carousel" data-slide-to="3"></li>
+		<li data-target="#carousel" data-slide-to="4"></li>
+		<li data-target="#carousel" data-slide-to="5"></li>
+		<li data-target="#carousel" data-slide-to="6"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-none d-lg-block">
+            <div class="slide-box">
+              <img src="img/ss_1.PNG" alt="First slide">
+              <img src="img/ss_2.PNG" alt="First slide">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-none d-lg-block">
+            <div class="slide-box">
+              <img src="img/ss_3.PNG" alt="Second slide">
+              <img src="img/ss_5.PNG" alt="Second slide">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+	  <div class="d-none d-lg-block">
+            <div class="slide-box">
+	      <img src="img/ss_6.PNG" alt="Third slide">
+	      <img src="img/ss_7.PNG" alt="Third slide">
+	    </div>
+	  </div>
+	</div>
+	 <div class="carousel-item">
+	<div class="d-none d-lg-block">
+            <div class="slide-box">
+	      <img src="img/ss_8.PNG" alt="Fourth slide">
+	      <img src="img/ss_9.PNG" alt="Fourth slide">
+	    </div>
+	  </div>
+	</div>
+    <div class="carousel-item">
+	<div class="d-none d-lg-block">
+            <div class="slide-box">
+	      <img src="img/ss_10.PNG" alt="Fifth slide">
+	      <img src="img/ss_11.PNG" alt="Fifth slide">
+	    </div>
+	  </div>
+	</div>
+	<div class="carousel-item">
+	<div class="d-none d-lg-block">
+            <div class="slide-box">
+	      <img src="img/ss_12.PNG" alt="Sixth slide">
+	      <img src="img/ss_13.PNG" alt="Sixth slide">
+	    </div>
+	  </div>
+	</div>
+	<div class="carousel-item">
+	<div class="d-none d-lg-block">
+            <div class="slide-box">
+	      <img src="img/ss_14.PNG" alt="Seventh slide">
+	      <img src="img/ss_15.PNG" alt="Seventh slide">
+	    </div>
+	  </div>
+	</div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<section id="announcements" class="ann-tag top-pad">
     <div class="container">
-      <div class="row justify-content-center mb-5 element-animate">
-        <div class="col-md-8 text-center mb-5">
-          <h2 class="text-uppercase heading border-bottom mb-4">
-            What is BioHack?
-          </h2>
-          <p class="mb-5 lead">
-            A hackathon is an multi-day event where students practice and develop their computer programming skills to create ideas and projects. This year, a collaboration with the Society of Women Engineers and Biomedical Engineering Society introduces BioHack,
-            the very first student-run 12 hour bioengineering-themed hackathon at the University of California, Riverside. Throughout this 12-hour hackathon, students will form teams to work on projects, attend technical workshops, speak to mentors, learn
-            about new technologies, and network with industries.
+      <div class="row justify-content-center element-animate">
+        <div class="bubble">
+        <div class="mb-4">
+          <h2 class="text-uppercase mb-4">Announcements</h2>
+          <h3>Want to join the Committee for Biohack 2019?</h3>
+          <p>
+            If you would like to volunteer and help plan this year's Biohack event, come join us at our first volunteer committee meeting on <b>Wednesday, November 28th, 2018 in BournsA265</b>!
+            We will be covering what Biohack is as well as ways that you can help out and get involved!
+            We would love for you to join us! Hope to see you there!
           </p>
-          <p class="mb-0 lead">
-            Our mission is to foster connections among students and sponsors throughout computer science and bioengineering. We encourage non-computer science or engineering students, especially females* and minorities, to develop valuable technical and teamwork
-            skills in a safe and encouraging environment. Also, hosting BioHack in the Inland Empire will spawn connections with engineers throughout the bioengineering community across California. UCR students who are curious are welcome to join; no
-            experience necessary!
+          <h3>Interested in being a Committee Lead for BioHack 2019?</h3>
+          <p>
+            We are currently looking for committee leads to help us organize this year's BioHack! If you are interested, please fill out this <a class="under-line" href="https://docs.google.com/forms/d/e/1FAIpQLScGQv7zspEnM6uMfMKAgpQDJ-9n9UVl3HrACHy43iW6GwVx0A/viewform" target="_blank">form</a>.
           </p>
+          <h3>Applications to participate in BioHack 2018 are closed</h3>
+          <p>
+            Email us at BioHack.UCR@gmail.com if you have any questions about this year's upcoming BioHack. Stay tuned for further updates!
+          </p>
+        </div>
         </div>
       </div>
-      <div class="row align-items-center">
-        <div class="col-md-12">
-          <p class="lead">
-            BioHack focuses on an event where students can create medically innovative projects and technologies with the freedom of their creativity. Unlike other hackathons, we promote bioengineering related projects as the central aspect of the event.
-          </p>​
-        </div>
-        <div class="col-md-6 stretch-left-1 element-animate" data-animate-effect="fadeInLeft">
-          <span class="video"><img src="img/img_1.jpg" alt="" class="img-fluid"></span>
-        </div>
-        <div class="col-md-6 stretch-left-1-offset pl-md-5 pl-0 element-animate" data-animate-effect="eInLeft">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-              <div class="media d-block media-feature text-center">
-                <span class="icon flaticon-hospital"></span>
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Bioinformatics</h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-              <div class="media d-block media-feature text-center">
-                <span class="icon flaticon-first-aid-kit"></span>
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Genetics</h3>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="ann-logo">
+      <img src="img/ann.png" alt="Announcement virus">
+      </div>
+    </div>
+  </section>
+<!--
+  <div class="hr"></div>
+-->
 
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-              <div class="media d-block media-feature text-center">
-                <span class="icon flaticon-hospital-bed"></span>
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Neuroscience</h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-              <div class="media d-block media-feature text-center">
-                <span class="icon flaticon-doctor"></span>
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Pharmaceuticals</h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-              <div class="media d-block media-feature text-center">
-                <span class="icon flaticon-doctor"></span>
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Medical Devices</h3>
-                </div>
-              </div>
-            </div>
-          </div>
+  <section id="agenda" class="agenda">
+    <div class="container">
+      <div class="row justify-content-center element-animate">
+        <div class="top-pad">
+            <h2 class="agenda-txt text-uppercase">2018 Agenda</h2>
+        </div>
+        <div class="agenda-img">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <img src="img/aga.jpg" atl="2018 Biohack Agenda">
         </div>
       </div>
     </div>
   </section>
 
-  <section id="sponsors" class="section bg-light">
+<!--
+ <div class="hr"></div>
+-->
+<!--
+  <section id="guest" class="spe-ment">
+      <div class="container">
+          <div class="top-pad">
+              <h2 class="head-text text-uppercase heading">Last Year's Panel</h2>
+          </div>
+          <div class="top-pad">
+              <h2 class="head-text text-uppercase heading">Guest Speakers</h2>
+          </div>
+        <div class="row justify-content-center mb-5 mar-top element-animate">
+          <div class="view view-first">
+            <img src="img/SP1.jpg" />
+              <div class="mask">
+                <h2>Danielle Connolly</h2>
+                <h3>Founder of Make Them Mainstream</h3>
+                  <p>UCR Graduate with a B.S in Mechanical Engineering & Minor in Mathematics. Through Make it Mainstream,
+                     Danielle wants to provide females, entering their academic and professional careers in STEM, tools to succeed.
+                  </p>
+                <a href="https://makethemmainstream.com/" target="_blank" class="info">Make Them Mainstream</a>
+              </div>
+          </div>
+          <div class="view view-first">
+              <img src="img/SP2.jpg" />
+                <div class="mask">
+                  <h2>Carrie Shaw</h2>
+                  <h3>CEO and Founder of Embodied Labs.</h3>
+                    <p>
+                      After completing her master’s in Biomedical Visualization in 2016, she founded her company Embodied Labs,
+                      with the goal of revolutionizing the way health care providers, caregivers, and patients learn about human health.
+                    </p>
+                  <a href="https://embodiedlabs.com/" target="_blank" class="info">Embodied Labs</a>
+                </div>
+          </div>
+        </div>
+      </div>
+  </section> -->
+
+<!--   <section id="judges" class="judge">
+      <div class="container">
+          <div class="top-pad">
+              <h2 class="head-text text-uppercase heading">Judges</h2>
+          </div>
+        <div class="row justify-content-center mb-5 mar-top element-animate">
+          <div class="jview jview-first">
+              <img src="img/j2.jpg" />
+                <div class="jmask">
+                  <h2>Vagelis Papalexakis</h2>
+                  <h3>Assistant Professor in Computer Science & EngineeringDepartment, UCR </h3>
+                    <p>
+                      Professor Papalexakis is working broadly on data mining, while his main research focus is on machine learning
+                      and data science research.
+                    </p>
+                </div>
+          </div>
+          <div class="jview jview-first">
+              <img src="img/j3.jpg" />
+                <div class="jmask">
+                  <h2>Justin W. Chartron</h2>
+                  <h3>Assistant Professor in Bioengineering department, UCR</h3>
+                    <p>
+                      Dr. Chartron’s research is focused in how a biological cell acts as a system to assemble proteins, and
+                      his group applies this knowledge to improve yields of engineered proteins.
+                    </p>
+                </div>
+          </div>
+          <div class="jview jview-first">
+              <img src="img/j4.jpg" />
+                <div class="jmask">
+                  <h2>Jiasi Chen</h2>
+                  <h3>Assistant Professor in Computer Science & Engineering Department, UCR</h3>
+                    <p>
+                      Dr, Chen's main research area is wireless networking, Internet video streaming, and augmented and virtual reality.
+                    </p>
+                </div>
+          </div>
+        </div>
+      </div>
+  </section> -->
+
+<!--
+  <div class="hr"></div>
+-->
+
+  <section id="projects" class="section stretch-section">
+      <div class="container proj-sec">
+        <div class="row justify-content-center 2element-animate">
+          <div class="col-md-8 text-center mb-5">
+            <h2 class="text-uppercase heading mb-4">
+              Example Projects
+            </h2>
+            <h3>
+              <i>Don’t know what to make during BioHack? Check out the winners from Biohack 2018 for inspiration!
+              We include projects that are related to, but are not limited to, these topics: Bioinformatics, Genetics, Neuroscience,
+              Pharmaceuticals, or Medical Devices.</i>
+            </h3>
+            <div class="ea-idea">
+                <div class="proj-title">
+                  <a href="https://www.hackerearth.com/sprints/biohack/dashboard/ec470b9/submission/" target="_blank">
+                    Overall 1st Place: SeeFood
+                  </a>
+                </div>
+                <div class="proj-desc">
+                  SeeFood allows you to get nutritional information for the food you eat fast.
+                  Unlike other solutions, SeeFood uses computer vision and neural networks to identify what you're eating and see the nutritional value.
+                </div>
+              </div>
+            <div class="ea-idea">
+              <div class="proj-title">
+                <a href="https://www.hackerearth.com/sprints/biohack/dashboard/1d17996/submission/" target="_blank">
+                  Overall 2nd Place: Medalarm
+                </a>
+              </div>
+              <div class="proj-desc">
+                A pills dispenser equipped with a timer that the user can set (ie: 1 hour, 4 hours, 2 days, 1 week, etc...) When the timer is up, then the dispenser will sound an alarm until the pill is dispensed.
+                When this occurs, the timer will automatically be reset to the initial.
+              </div>
+            </div>
+            <div class="ea-idea">
+              <div class="proj-title">
+                <a href="https://www.hackerearth.com/sprints/biohack/dashboard/2749f95/submission/" target="_blank">
+                  Best Startup Hack: Recover Track
+                </a>
+              </div>
+              <div class="proj-desc">
+                Using a Kinect or something similar to help physical therapy patients from the convenience of their​ own home.
+              </div>
+            </div>
+            <div class="ea-idea">
+              <div class="proj-title">
+                <a href="https://www.hackerearth.com/sprints/biohack/dashboard/d2137ed/submission/" target="_blank">
+                  Best Beginner's Hack: Hydration Reminder
+                </a>
+              </div>
+              <div class="proj-desc">
+                People constantly forget to drink water throughout the day or don't know how much water they're supposed to drink, based on their body type.
+                Input your weight in pounds, average exercise level, and sex, to output the liters of water you need, as well as how frequently you drink throughout the day to determine how much you need each time.
+              </div>
+            <div class="ea-idea">
+               <div class="proj-title">
+                 <a href="https://www.hackerearth.com/sprints/biohack/dashboard/2242d87/submission/" target="_blank">
+                   Best Hardware Hack: Apple a Day
+                 </a>
+               </div>
+               <div class="proj-desc">
+                This app allows patients to monitor their biometrics from the comfort of their home and contact the doctor if they have any concerns.
+                The doctor can send the patient a specific code so that he/she has access to the patient's medical records and biometric data.
+               </div>
+            <div class="ea-idea">
+              <div class="proj-title">
+                <a href="https://www.hackerearth.com/sprints/biohack/dashboard/38dff9c/submission/" target="_blank">
+                  Best Humanitarian Hack: EmergencyWoundTreatmentSimulator
+                </a>
+              </div>
+              <div class="proj-desc">
+                Most people in highly stressful situations tend to freeze up. Our simulator seeks to familiarize people with emergency wound treatment so that they can calmly handle a life-or-death situation.
+                This simulator has the potential to save many lives by keeping wounded people alive until paramedics arrive. It also can be expanded to include more dilemmas.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--
+  <div class="hr"></div>
+-->
+
+  <section id="sponsors" class="section-bg-light">
     <div class="container">
-      <div class="row justify-content-center mb-5 element-animate">
-        <div class="col-md-12 text-center mb-5">
-          <h2 class="text-uppercase heading border-bottom mb-4">Sponsors</h2>
-          <p class="mb-5 lead">
-            <a href="docs/biohack_sponsorship_packet_2018_final.pdf">Sponsorship Package</a>
-          </p>
+      <div class="row justify-content-center element-animate">
+        <div class="col-md-12 text-center spon mb-5">
+          <h2 class="text-uppercase mb-4 mar-top">Sponsors</h2>
           <div class="row d-flex justify-content-around">
-            <img class="sponsor half" src="img/swe.png" alt="SWE">
-            <img class="sponsor half mb-5" src="img/bmes.jpg" alt="BMES">
-            <img class="sponsor full" src="img/bcoe.png" alt="BCOE">
+            <img class="sponsor half mb-5" src="img/swe.png" alt="Society of Women Engineers">
+            <img class="sponsor half mb-5" src="img/otp.png" atl="Office of Technology">
+            <img class="sponsor half mb-5" src="img/github.png" alt="GitHub">
+            <img class="sponsor half mb-5" src="img/he.png" alt="Hackerearth">
+            <img class="sponsor half mb-5" src="img/kgi.png" alt="Keck Graduate Institute">
+            <a href="https://www.stickergiant.com/" target="_blank">
+              <img class="sponsor half mb-5" src="img/sgl.png" atl="StickerGiant">
+            </a>
+            <img class="sponsor half mb-5" src="img/bmes.png" alt="Biomedical Engineering Society">
+            <img class="sponsor half mb-5" src="img/bcoe.png" alt="UC Riverside Bourns College of Engineering">
           </div>
+          <p class="mb-5 lead">
+              <p class="element-animate"><a href="docs/BIOHACK_SPONSORSHIP_PACKET_2019.pdf" class="btn btn-primary btn-lg">View Our Sponsorship Packet</a></p>
+          </p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="cover_1" style="background-image: url(img/bg_1.jpg);">
+<!--
+  <div class="hr"></div>
+-->
+
+  <section id="faq" class="faq-question">
+      <div class="container">
+        <div class="row justify-content-center mar-top element-animate">
+          <div class="col-md-8 text-center">
+            <h2 class="text-uppercase">faqs</h2>
+          </div>
+        </div>
+        <div class="faq-panel">
+          <div class="panel-list-content">
+            <div class="panel-wrap">
+              <input id="m1" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="m1" class="panel-title">
+                    What is a hackathon?
+                </label>
+                <div class="panel-content">
+                    A hackathon is a weekend-long (or day-long) event that invites curious minds to learn and build something new. You may pick up a project of their
+                    choosing to work on during the event to dive into a topic you've been meaning to explore. You also get to meet new friends as you work in a team
+                    of up to 4! Hackathons provide other ways to learn such as attending workshops, listening to speakers, or networking with other students and
+                    representatives from faculty and companies!
+                </div>
+            </div>
+            <div class="panel-wrap">
+              <input id="m2" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="m2" class="panel-title">
+                  Can I attend?
+                </label>
+                <div class="panel-content">
+                    If you are an undergraduate UCR student who is curious about hacking, then of course! If you do not have any programming experience, CS mentors
+                    will be around to help. And if you are interested in mentoring during this event, you can fill out a mentor application!
+                </div>
+            </div>
+            <div class="panel-wrap">
+              <input id="m3" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="m3" class="panel-title">
+                  Do I need to be a CS major or minor to join?
+                </label>
+                <div class="panel-content">
+                  No! BioHack encourages students who are curious about coding and health to create their coding project, whether it is their first project, greatest
+                  project, or both! We will provide resources for beginners to get started!
+                </div>
+            </div>
+            <div class="panel-wrap">
+              <input id="m4" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="m4" class="panel-title">
+                  How do I register?
+                </label>
+                <div class="panel-content">
+                  Applications to participate in BioHack 2019 will open soon. Feel free to contact us at BioHack.UCR@gmail.com if you have any further questions, and follow us on social media for updates on when applications open and other exciting announcements!
+                </div>
+            </div>
+            <div class="panel-wrap">
+              <input id="m5" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="m5" class="panel-title">
+                  Does this cost money?
+                </label>
+                <div class="panel-content">
+                  Nope! This event is free to all students. We will provide food, snacks, a place to hack, swag, and prizes for the winners!
+                </div>
+            </div>
+            <div class="panel-wrap">
+              <input id="m6" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="m6" class="panel-title">
+                  What are the prizes?
+                </label>
+                <div class="panel-content">
+                  There will be four category prizes and two overall prizes:
+                  <div class="list">
+                    <ul>
+                      <li>Best Startup hack, Best Beginner hack, Best Hardware hack, Best Humanitarian hack, Overall 2nd place, and Overall 1st place</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+            <div class="panel-wrap">
+              <input id="m7" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="m7" class="panel-title">
+                  How do I get to BioHack?
+                </label>
+                <div class="panel-content">
+                    BioHack will be hosted in Winston Chung Hall and Bourns Hall. Further details about the locations will be provided as the event approaches.
+                    Unfortunately, we will not be providing transportation for students. However, guests will be provided parking on campus.
+                </div>
+            </div>
+            <div class="panel-wrap">
+              <input id="m8" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="m8" class="panel-title">
+                  Are there travel reimbursements?
+                </label>
+                <div class="panel-content">
+                  Unfortunately, we will not be able to provide travel reimbursements this year. Sorry for the inconvenience.
+                </div>
+            </div>
+            <div class="panel-wrap">
+              <input id="m9" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="m9" class="panel-title">
+                  How do teams work?
+                </label>
+                <div class="panel-content">
+                  Team will be between students of up to 4 people. Teams can be formed either before the event or during the day of the event right after opening ceremony.
+                  We encourage students to collaborate with peers from different technical backgrounds to work on a computer programming project that’s medical or health related!
+                </div>
+            </div>
+            <div class="panel-wrap">
+              <input id="m10" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="m10" class="panel-title">
+                  Will there be hardware available?
+                </label>
+                <div class="panel-content">
+                  Yes! Hardware will be provided.
+                </div>
+            </div>
+            <div class="panel-wrap">
+              <input id="m11" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="m11" class="panel-title">
+                  What should I bring?
+                </label>
+                <div class="panel-content">
+                  Bring a valid student ID for admission, a laptop with charger, and anything else you need to hack away!
+                </div>
+            </div>
+            <div class="panel-wrap">
+              <input id="m12" type="checkbox" class="panel">
+                <div class="plus">+</div>
+                <label for="m12" class="panel-title">
+                  Where do I sleep?
+                </label>
+                <div class="panel-content">
+                  Since this event is a 12-hour event, sleeping over will not be necessary and will not be provided.
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--
+  <div class="hr"></div>
+-->
+
+<!--   <section id="contact" class="cover_1">
     <div class="container">
       <div class="row text-center justify-content-center">
         <div class="col-md-10">
-          <h2 class="heading element-animate">Join the BioHack Committee Meetings!</h2>
+          <h2 class="heading element-animate">Join the Committee for BioHack 2019!</h2>
           <p class="sub-heading element-animate mb-5">
-            You can help organize the first BioHack! Stop by our weekly meetings on Thursdays from 5PM - 6PM in Chung 203.
+            If you are interested in joining the BioHack committee and helping us organize this year's BioHack, join us at our first committee volunteer meeting on <b>Wednesday, November 28th, 2018 in Bourns A265</b>!
+            Hope to see you there!
+            <br>
+            For further questions and information, please send us an email at BioHack.UCR@gmail.com!
           </p>
-          <p class="element-animate"><a href="mailto:biohack.ucr@gmail.com" class="btn btn-primary btn-lg">Email Us</a></p>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <footer class="site-footer" role="contentinfo">
     <div class="container">
       <div class="row pt-md-3 element-animate">
         <div class="col-md-12 col-sm-12 copyright text-center">
           <p>Made with ❤ in Riverside</p>
+			<p>
+            <a class="fa fa-facebook" href="https://www.facebook.com/UCRBiohack/"target="_blank"> </a>
+            <a class="fa fa-instagram" href="https://www.instagram.com/biohack_ucr/?hl=en" target="_blank"> </a>
+            <a class="fa fa-envelope" href="mailto:biohack.ucr@gmail.com"> </a>
+            </p>
         </div>
       </div>
     </div>
